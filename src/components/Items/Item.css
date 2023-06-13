@@ -1,0 +1,34 @@
+.cart-item{
+    margin-top:50px;
+}
+.cart-item img{
+    width: 750px;
+    height: 450px;
+    border-radius: 8px;
+}
+.cart-user-info{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 25px;
+
+}
+.cart-user-info .user{
+    display:flex;
+}
+.user img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.user h4{
+    padding-top: 6px;
+}
+.user h4,p{
+    margin:0;
+    margin-left: 15px;
+
+}
+.bookmarkBtn{
+    border:none;
+}

@@ -1,0 +1,15 @@
+.container{
+    width:80%;
+    margin:auto;
+    display:grid;
+    grid-template-columns: 4fr 2fr;
+    position:relative;
+}
+@media only screen and (max-width: 574px) {
+   .container{
+    width:80%;
+    margin:auto;
+    /* padding-right: 50px; */
+    grid-template-columns: 1fr;
+   }
+  }

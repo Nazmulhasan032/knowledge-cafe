@@ -1,0 +1,27 @@
+.header-area{
+    width:80%;
+    margin: auto;
+
+}
+.header-section{ 
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav{
+    display:flex;
+    
+}
+.nav a{
+    margin-left: 35px;
+
+}
+.nav a:hover{
+    color:orange;
+}
+
+/* @media only screen and (max-width: 574px) {
+    .header-area{
+        width:80%;
+    }
+   } */
